@@ -1,0 +1,15 @@
+# Ignore all executables in any directory
+**/*.exe
+**/*.out
+**/a.out
+
+# Ignore all files without extensions (likely executables on Unix)
+*
+!*/
+!*.*
+!Makefile
+
+# Ignore specific compiler output files
+**/*.o
+**/*.obj
+**/*.dSYM/
