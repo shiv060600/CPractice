@@ -55,10 +55,3 @@ void copy(char t[],char f[]){
     }
 }
 
-int get_line_size(){
-    int line_size = 0 , c ;
-    while((c = getchar()) != EOF && c != '\n'){
-        ++line_size;
-    }
-    return line_size;
-}
